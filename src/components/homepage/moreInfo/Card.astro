@@ -1,7 +1,12 @@
-<div><slot /></div>
+<div class="wraper">
+    <div class="holder"><slot /></div>
+</div>
 
 <style>
-    div {
+.wraper {
+    display: flex;
+}
+    .holder {
         width: 100%;
         border: 10px solid #c4c4c4;
         padding: 40px;
