@@ -4,17 +4,38 @@ import Info from "./Info.astro";
 import Background from "../../../assets/background.svg";
 ---
 
-<div class="center-wraper"><Info /></div>
+<div class="full-wraper">
+    <div class="bg-wraper"><Background /></div>
+
+    <div class="info-wraper"><Info /></div>
+</div>
 
 <style>
-    .center-wraper {
+    .full-wraper {
+        position: relative;
+    }
+
+    .info-wraper {
+        position: absolute;
+        top: 0;
+        left: 0;
         height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("background.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    }
+
+    .bg-wraper {
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        overflow: hidden;
+    }
+
+    svg {
+        width: 100vw;
     }
 </style>
