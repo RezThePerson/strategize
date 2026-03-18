@@ -1,13 +1,62 @@
 ---
 import Card from "./Card.astro";
+
+import Tier1 from "../../../assets/tier1.svg";
+import Tier2 from "../../../assets/tier2.svg";
+import Tier3 from "../../../assets/tier3.svg";
 ---
 
 <div>
-    <Card> <span style="font-size: 500px;">hi</span> </Card>
+    <Card>
+        <h1>Tier 1:</h1>
+        <p>
+            build a existing game, get a copy of the game! (eg. build skull, get
+            skull)
+        </p>
+        <Tier1 />
+    </Card>
+    <Card>
+        <h1>Tier 2:</h1>
+        <p>
+            bring a twist to a existing game, get a copy of the game and
+            stickers! (eg. build skull but if you get 2 skulls then they cancel
+            each other, get skull and stickers)
+        </p>
+        <Tier2 />
+    </Card>
+    <Card>
+        <h1>Tier 3:</h1>
+        <p>
+            bring a a whole new game, get a phiscal creation of your game,
+            stickers and a shirt! (eg. a game where you need to repel and and
+            atack at the same time using cards to win, get your cards 3d
+            printed, stickers and a shirt)
+        </p>
+        <Tier3 />
+    </Card>
 </div>
 
 <style>
     div {
         display: flex;
+        flex-direction: column;
+        padding: 50px 150px;
+        gap: 50px;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin: 0px;
+    }
+
+    p {
+        font-size: 50px;
+        margin: 0px;
+        color: #434343;
+    }
+
+    svg {
+        margin-top: 15px;
+        width: 100%;
     }
 </style>
