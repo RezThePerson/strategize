@@ -1,8 +1,20 @@
 ---
 import Base from "../layouts/Base.astro";
+
+import Divider from "../assets/divider.svg";
+
 import Landing from "../components/homepage/landing/Landing.astro";
+import MoreInfo from "../components/homepage/moreInfo/MoreInfo.astro";
 ---
 
 <Base>
     <Landing />
+    <Divider />
+    <MoreInfo />
 </Base>
+
+<style>
+    svg {
+        width: 100%;
+    }
+</style>
