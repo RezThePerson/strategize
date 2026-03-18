@@ -1,0 +1,20 @@
+---
+import Info from "./Info.astro";
+
+import Background from "../../../assets/background.svg";
+---
+
+<div class="center-wraper"><Info /></div>
+
+<style>
+    .center-wraper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>

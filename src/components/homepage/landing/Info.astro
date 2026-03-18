@@ -1,37 +1,28 @@
 ---
-import Sparkle from "../../assets/sparkle.svg";
-import ReverseSparkle from "../../assets/reverse-sparkle.svg";
+import Sparkle from "../../../assets/sparkle.svg";
+import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
 ---
 
-<div class="center-wraper">
-    <div class="info">
-        <div class="top-sparkle">
-            <Sparkle />
+<div class="info">
+    <div class="top-sparkle">
+        <Sparkle />
+    </div>
+    <div>
+        <h1>Strategize</h1>
+        <p>1. Make your own strategy board game.</p>
+        <p>2. Build a virtual place to play the game.</p>
+        <p>3. Get a physical copy of your own game!</p>
+        <div class="buttons">
+            <button> More Info? </button>
+            <button> Submit! </button>
         </div>
-        <div>
-            <h1>Strategize</h1>
-            <p>1. Make your own strategy board game.</p>
-            <p>2. Build a virtual place to play the game.</p>
-            <p>3. Get a physical copy of your own game!</p>
-            <div class="buttons">
-                <button> More Info? </button>
-                <button> Submit! </button>
-            </div>
-        </div>
-        <div class="bottom-sparkle">
-            <ReverseSparkle />
-        </div>
+    </div>
+    <div class="bottom-sparkle">
+        <ReverseSparkle />
     </div>
 </div>
 
 <style>
-    .center-wraper {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .info {
         text-align: center;
     }
@@ -73,7 +64,7 @@ import ReverseSparkle from "../../assets/reverse-sparkle.svg";
         position: relative;
         width: 150px;
         left: -120px;
-        bottom: -80px;
+        bottom: -90px;
     }
 
     .bottom-sparkle {
@@ -85,6 +76,6 @@ import ReverseSparkle from "../../assets/reverse-sparkle.svg";
         position: relative;
         width: 150px;
         right: -120px;
-        top: -60px;
+        top: -80px;
     }
 </style>
