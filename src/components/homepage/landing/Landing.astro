@@ -1,11 +1,12 @@
 ---
 import Info from "./Info.astro";
 
-import Background from "../../../assets/background.svg";
+// import Background from "../../../assets/background.svg";
+import pngBackground from "../../../assets/background.png";
 ---
 
 <div class="full-wraper">
-    <div class="bg-wraper"><Background /></div>
+    <div class="bg-wraper"><img src={pngBackground.src} /></div>
 
     <div class="info-wraper"><Info /></div>
 </div>
@@ -35,7 +36,7 @@ import Background from "../../../assets/background.svg";
         overflow: hidden;
     }
 
-    svg {
+    img {
         width: 100vw;
     }
 </style>
