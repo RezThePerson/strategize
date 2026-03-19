@@ -13,8 +13,8 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
         <p>2. Build a virtual place to play the game.</p>
         <p>3. Get a physical copy of your own game!</p>
         <div class="buttons">
-            <button> More Info? </button>
-            <button> Submit! </button>
+            <a href="#more-info"><button> More Info? </button></a>
+            <a href="https://example.com/"><button> Submit! </button></a>
         </div>
     </div>
     <div class="bottom-sparkle">
@@ -38,9 +38,11 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
         color: #434343;
     }
 
-    .buttons {
+    .buttons,
+    a {
         width: 100%;
         display: flex;
+        text-decoration: none;
     }
 
     button {
@@ -53,6 +55,12 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
         font-size: 30px;
         border-radius: 10px;
         cursor: pointer;
+        transition: all 50ms;
+    }
+
+    button:hover {
+        border: 10px solid #c4c4c4;
+        padding: 5px 0px;
     }
 
     .top-sparkle {
@@ -63,7 +71,7 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
     .top-sparkle svg {
         position: relative;
         width: 150px;
-        left: -120px;
+        left: -100px;
         bottom: -90px;
     }
 
@@ -75,7 +83,7 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
     .bottom-sparkle svg {
         position: relative;
         width: 150px;
-        right: -120px;
-        top: -80px;
+        right: -130px;
+        top: -70px;
     }
 </style>

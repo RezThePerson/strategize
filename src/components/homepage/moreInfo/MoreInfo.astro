@@ -6,7 +6,7 @@ import Tier2 from "../../../assets/tier2.svg";
 import Tier3 from "../../../assets/tier3.svg";
 ---
 
-<div class="cards">
+<div class="cards" id="more-info">
     <Card>
         <h1>Tier 1:</h1>
         <p>
@@ -34,7 +34,9 @@ import Tier3 from "../../../assets/tier3.svg";
         </p>
         <Tier3 />
     </Card>
-    <div style="display: flex;"><button> Submit Now! </button></div>
+    <a class="submit" href="https://example.com/"
+        ><button> Submit Now!</button>
+    </a>
     <div class="contact">
         <h2>any question?</h2><h4>
             dm <a
@@ -99,11 +101,22 @@ import Tier3 from "../../../assets/tier3.svg";
     button {
         border: 5px solid #c4c4c4;
         width: 100%;
-        padding: 15px 0px;
+        padding: 10px 0px;
         color: white;
         background-color: black;
         font-size: 50px;
         border-radius: 10px;
         cursor: pointer;
+    }
+
+    .submit {
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+    }
+
+    button:hover {
+        border: 10px solid #c4c4c4;
+        padding: 5px 0px;
     }
 </style>
