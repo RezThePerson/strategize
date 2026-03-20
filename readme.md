@@ -1,4 +1,7 @@
+# Strategize
 
-35:1
-52:45
-56:18
+A stratagy board game YSWS :D
+
+![](src/assets/buildtowin.svg)
+
+more info at [our website](https://strategize.dino.icu/) :p
