@@ -1,6 +1,6 @@
 # Strategize
 
-A stratagy board game YSWS :D
+A strategy board game YSWS :D
 
 ![](src/assets/buildtowin.svg)
 
