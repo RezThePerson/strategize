@@ -1,5 +1,8 @@
 ---
 import Card from "./Card.astro";
+import CardRight from "./CardRight.astro";
+
+import Textinfo from "./Textinfo.astro";
 
 import Tier1 from "../../../assets/tier1.svg";
 import Tier2 from "../../../assets/tier2.svg";
@@ -7,6 +10,7 @@ import Tier3 from "../../../assets/tier3.svg";
 ---
 
 <div class="cards" id="more-info">
+    <Textinfo />
     <Card>
         <h1>Tier 1:</h1>
         <p>
@@ -15,7 +19,7 @@ import Tier3 from "../../../assets/tier3.svg";
         </p>
         <Tier1 />
     </Card>
-    <Card>
+    <CardRight>
         <h1>Tier 2:</h1>
         <p>
             make a twist to an existing game, get a copy of the game and
@@ -23,7 +27,7 @@ import Tier3 from "../../../assets/tier3.svg";
             each other, get skull and stickers)
         </p>
         <Tier2 />
-    </Card>
+    </CardRight>
     <Card>
         <h1>Tier 3:</h1>
         <p>
@@ -34,9 +38,7 @@ import Tier3 from "../../../assets/tier3.svg";
         </p>
         <Tier3 />
     </Card>
-    <a class="submit" href="https://example.com/"
-        ><button> Submit Now!</button>
-    </a>
+
     <div class="contact">
         <h2>any question?</h2><h4>
             dm <a
@@ -54,23 +56,26 @@ import Tier3 from "../../../assets/tier3.svg";
             >!
         </h4>
     </div>
+    <a class="submit" href="https://example.com/"
+        ><button> Submit Now!</button>
+    </a>
 </div>
 
 <style>
     .cards {
         display: flex;
         flex-direction: column;
-        padding: 50px 150px;
-        gap: 50px;
+        padding: 50px 100px;
+        gap: 30px;
     }
 
     h1 {
-        font-size: 100px;
+        font-size: 75px;
         margin: 0px;
     }
 
     p {
-        font-size: 50px;
+        font-size: 30px;
         margin: 0px;
         color: #434343;
     }
