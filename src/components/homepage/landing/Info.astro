@@ -1,6 +1,7 @@
 ---
 import Sparkle from "../../../assets/sparkle.svg";
 import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
+import Buildtowin from "../../../assets/buildtowin.svg";
 ---
 
 <div class="info">
@@ -9,9 +10,7 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
     </div>
     <div>
         <h1>Strategize</h1>
-        <p>1. Make your own strategy board game.</p>
-        <p>2. Build a virtual place to play the game.</p>
-        <p>3. Get a physical copy of your own game!</p>
+        <Buildtowin />
         <div class="buttons">
             <a href="#more-info"><button> More Info? </button></a>
             <a href="https://example.com/"><button> Submit! </button></a>
@@ -32,11 +31,18 @@ import ReverseSparkle from "../../../assets/reverse-sparkle.svg";
         margin: 0;
     }
 
+    div svg {
+        width: 75%;
+        height: fit-content;
+    }
+
+    /*
     p {
         font-size: 40px;
         margin: 0;
         color: #434343;
     }
+    */
 
     .buttons,
     a {
