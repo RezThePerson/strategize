@@ -1,30 +1,33 @@
-# Hi hq lords!
+# Hi HQ Lords!
 
-heres a list of things that i probably should note for actually executing this ysws!
+Here’s a list of things I should probably note for actually executing this YSWS.
 
 ## QA
 
-### isnt this just aces?
+### Isn’t this just Aces?
 
-no, for 2 reasons
+No, for two reasons:
 
-- aces's main prize was going to the deck, mine is to get the game physically
-- aces did not have a hard "board game" requirement, i do.
+* Aces’s main prize was going to the deck, mine is getting the game physically made.
+* Aces did not have a strict “board game" requirement, I do.
 
-### did you take the idea from aces?
+### Did you take the idea from Aces?
 
-i legit didnt even know it existed... i found out it did when i was first asking people for feedback.
+I genuinely didnt even know it existed. I found out about it when I first started asking people for feedback.
 
-## executing
+## Execution
 
-### how are custom games given physically
+### How are custom games given physically?
 
-3d printer pieces and a sticker on a hard board for the board
+Using 3D printed pieces and a sticker on a hard board for the game board.
 
-### logistics
+### Logistics
 
-tier 1: (taking chess as an example) a decent implementation of chess might take 5 hrs. aka 25$ and a decent chess board costs 15-20$
+Tier 1:
+(Taking chess as an example) A decent implementation of chess might take 5 hours (~$25), and a decent chess board costs ~$15–20.
 
-tier 2: stickers are insanely cheap and basically cost nothing if postage is covered by the board game
+Tier 2:
+Stickers are extremely cheap and basically cost nothing if postage is covered by the board game.
 
-tier 3: custom games will have a quality requirement, and that should hopefully go to about 10-15 hrs (50-75$), which should cover about 35$ for the prints and 15$ for the shirt
+Tier 3:
+Custom games will have a quality requirement, which should bring building time to about ~10–15 hours (~$50–75). This should cover around ~$35 for the prints and ~$15 for the shirt.
